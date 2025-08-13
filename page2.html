@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001524;
+    color: #ededed;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers video and buttons horizontally */
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* centers the EXIT button */
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00abf0;
+    color: #112e42;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0095d6;
+}
+
+#playBtn {
+    margin-bottom: 20px;
+}
+        </style>
+
+    </head>
+
+    <body>
+        <div class="page 2">
+            <video width="640" height="360" controls>
+                <source src="image/bleeh.mp4" type="video/mp4">
+            </video>
+
+            <div class="buttons">
+                <a href="bye.html">
+                    <button>EXIT</button>
+                </a>
+            </div>
+
+        </div>
+    </body>
+</html>
